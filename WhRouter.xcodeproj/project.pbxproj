@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D150665B1E827D88008AC5A2 /* NavButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D150665A1E827D88008AC5A2 /* NavButton.m */; };
+		D150665E1E8283B2008AC5A2 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D150665D1E8283B2008AC5A2 /* ThirdViewController.m */; };
+		D15FA46A1E84A3DE002C6798 /* WhRouterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D15FA4691E84A3DE002C6798 /* WhRouterManager.m */; };
+		D15FA46D1E84A411002C6798 /* UINavigationController+WhRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D15FA46C1E84A411002C6798 /* UINavigationController+WhRouter.m */; };
+		D15FA4701E84A427002C6798 /* UIViewController+WhRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D15FA46F1E84A427002C6798 /* UIViewController+WhRouter.m */; };
+		D15FA4731E84AEDF002C6798 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15FA4721E84AEDF002C6798 /* FourViewController.m */; };
+		D15FA4761E84B275002C6798 /* NSObject+Dynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = D15FA4751E84B275002C6798 /* NSObject+Dynamic.m */; };
+		D1A930B31E7A695D00E9F66C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A930B21E7A695D00E9F66C /* main.m */; };
+		D1A930B61E7A695D00E9F66C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A930B51E7A695D00E9F66C /* AppDelegate.m */; };
+		D1A930B91E7A695D00E9F66C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A930B81E7A695D00E9F66C /* ViewController.m */; };
+		D1A930BC1E7A695D00E9F66C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A930BA1E7A695D00E9F66C /* Main.storyboard */; };
+		D1A930BE1E7A695D00E9F66C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A930BD1E7A695D00E9F66C /* Assets.xcassets */; };
+		D1A930C11E7A695D00E9F66C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A930BF1E7A695D00E9F66C /* LaunchScreen.storyboard */; };
+		D1A930CA1E7A6B2700E9F66C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A930C91E7A6B2700E9F66C /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D15066591E827D88008AC5A2 /* NavButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavButton.h; sourceTree = "<group>"; };
+		D150665A1E827D88008AC5A2 /* NavButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavButton.m; sourceTree = "<group>"; };
+		D150665C1E8283B2008AC5A2 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D150665D1E8283B2008AC5A2 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		D15FA4681E84A3DE002C6798 /* WhRouterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhRouterManager.h; sourceTree = "<group>"; };
+		D15FA4691E84A3DE002C6798 /* WhRouterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhRouterManager.m; sourceTree = "<group>"; };
+		D15FA46B1E84A411002C6798 /* UINavigationController+WhRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+WhRouter.h"; sourceTree = "<group>"; };
+		D15FA46C1E84A411002C6798 /* UINavigationController+WhRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+WhRouter.m"; sourceTree = "<group>"; };
+		D15FA46E1E84A427002C6798 /* UIViewController+WhRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WhRouter.h"; sourceTree = "<group>"; };
+		D15FA46F1E84A427002C6798 /* UIViewController+WhRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WhRouter.m"; sourceTree = "<group>"; };
+		D15FA4711E84AEDF002C6798 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		D15FA4721E84AEDF002C6798 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		D15FA4741E84B275002C6798 /* NSObject+Dynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dynamic.h"; sourceTree = "<group>"; };
+		D15FA4751E84B275002C6798 /* NSObject+Dynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dynamic.m"; sourceTree = "<group>"; };
+		D1A930AE1E7A695D00E9F66C /* WhRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A930B21E7A695D00E9F66C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1A930B41E7A695D00E9F66C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1A930B51E7A695D00E9F66C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1A930B71E7A695D00E9F66C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1A930B81E7A695D00E9F66C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1A930BB1E7A695D00E9F66C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1A930BD1E7A695D00E9F66C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1A930C01E7A695D00E9F66C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1A930C21E7A695D00E9F66C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1A930C81E7A6B2700E9F66C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D1A930C91E7A6B2700E9F66C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1A930AB1E7A695D00E9F66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D15FA4671E84A3DE002C6798 /* WhRouter */ = {
+			isa = PBXGroup;
+			children = (
+				D15FA4681E84A3DE002C6798 /* WhRouterManager.h */,
+				D15FA4691E84A3DE002C6798 /* WhRouterManager.m */,
+				D15FA4741E84B275002C6798 /* NSObject+Dynamic.h */,
+				D15FA4751E84B275002C6798 /* NSObject+Dynamic.m */,
+				D15FA46B1E84A411002C6798 /* UINavigationController+WhRouter.h */,
+				D15FA46C1E84A411002C6798 /* UINavigationController+WhRouter.m */,
+				D15FA46E1E84A427002C6798 /* UIViewController+WhRouter.h */,
+				D15FA46F1E84A427002C6798 /* UIViewController+WhRouter.m */,
+			);
+			path = WhRouter;
+			sourceTree = "<group>";
+		};
+		D1A930A51E7A695D00E9F66C = {
+			isa = PBXGroup;
+			children = (
+				D1A930B01E7A695D00E9F66C /* WhRouter */,
+				D1A930AF1E7A695D00E9F66C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A930AF1E7A695D00E9F66C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1A930AE1E7A695D00E9F66C /* WhRouter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1A930B01E7A695D00E9F66C /* WhRouter */ = {
+			isa = PBXGroup;
+			children = (
+				D15066591E827D88008AC5A2 /* NavButton.h */,
+				D150665A1E827D88008AC5A2 /* NavButton.m */,
+				D1A930B41E7A695D00E9F66C /* AppDelegate.h */,
+				D1A930B51E7A695D00E9F66C /* AppDelegate.m */,
+				D1A930B71E7A695D00E9F66C /* ViewController.h */,
+				D1A930B81E7A695D00E9F66C /* ViewController.m */,
+				D1A930C81E7A6B2700E9F66C /* SecondViewController.h */,
+				D1A930C91E7A6B2700E9F66C /* SecondViewController.m */,
+				D150665C1E8283B2008AC5A2 /* ThirdViewController.h */,
+				D150665D1E8283B2008AC5A2 /* ThirdViewController.m */,
+				D15FA4711E84AEDF002C6798 /* FourViewController.h */,
+				D15FA4721E84AEDF002C6798 /* FourViewController.m */,
+				D15FA4671E84A3DE002C6798 /* WhRouter */,
+				D1A930BA1E7A695D00E9F66C /* Main.storyboard */,
+				D1A930BD1E7A695D00E9F66C /* Assets.xcassets */,
+				D1A930BF1E7A695D00E9F66C /* LaunchScreen.storyboard */,
+				D1A930C21E7A695D00E9F66C /* Info.plist */,
+				D1A930B11E7A695D00E9F66C /* Supporting Files */,
+			);
+			path = WhRouter;
+			sourceTree = "<group>";
+		};
+		D1A930B11E7A695D00E9F66C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1A930B21E7A695D00E9F66C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1A930AD1E7A695D00E9F66C /* WhRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A930C51E7A695D00E9F66C /* Build configuration list for PBXNativeTarget "WhRouter" */;
+			buildPhases = (
+				D1A930AA1E7A695D00E9F66C /* Sources */,
+				D1A930AB1E7A695D00E9F66C /* Frameworks */,
+				D1A930AC1E7A695D00E9F66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhRouter;
+			productName = WhRouter;
+			productReference = D1A930AE1E7A695D00E9F66C /* WhRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1A930A61E7A695D00E9F66C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MG;
+				TargetAttributes = {
+					D1A930AD1E7A695D00E9F66C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D1A930A91E7A695D00E9F66C /* Build configuration list for PBXProject "WhRouter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1A930A51E7A695D00E9F66C;
+			productRefGroup = D1A930AF1E7A695D00E9F66C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1A930AD1E7A695D00E9F66C /* WhRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1A930AC1E7A695D00E9F66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A930C11E7A695D00E9F66C /* LaunchScreen.storyboard in Resources */,
+				D1A930BE1E7A695D00E9F66C /* Assets.xcassets in Resources */,
+				D1A930BC1E7A695D00E9F66C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1A930AA1E7A695D00E9F66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A930CA1E7A6B2700E9F66C /* SecondViewController.m in Sources */,
+				D15FA4701E84A427002C6798 /* UIViewController+WhRouter.m in Sources */,
+				D15FA4731E84AEDF002C6798 /* FourViewController.m in Sources */,
+				D150665B1E827D88008AC5A2 /* NavButton.m in Sources */,
+				D1A930B91E7A695D00E9F66C /* ViewController.m in Sources */,
+				D15FA46D1E84A411002C6798 /* UINavigationController+WhRouter.m in Sources */,
+				D15FA4761E84B275002C6798 /* NSObject+Dynamic.m in Sources */,
+				D1A930B61E7A695D00E9F66C /* AppDelegate.m in Sources */,
+				D15FA46A1E84A3DE002C6798 /* WhRouterManager.m in Sources */,
+				D1A930B31E7A695D00E9F66C /* main.m in Sources */,
+				D150665E1E8283B2008AC5A2 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1A930BA1E7A695D00E9F66C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A930BB1E7A695D00E9F66C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1A930BF1E7A695D00E9F66C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A930C01E7A695D00E9F66C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1A930C31E7A695D00E9F66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1A930C41E7A695D00E9F66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1A930C61E7A695D00E9F66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapgoo.chedaibao.WhRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1A930C71E7A695D00E9F66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapgoo.chedaibao.WhRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1A930A91E7A695D00E9F66C /* Build configuration list for PBXProject "WhRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A930C31E7A695D00E9F66C /* Debug */,
+				D1A930C41E7A695D00E9F66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A930C51E7A695D00E9F66C /* Build configuration list for PBXNativeTarget "WhRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A930C61E7A695D00E9F66C /* Debug */,
+				D1A930C71E7A695D00E9F66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1A930A61E7A695D00E9F66C /* Project object */;
+}
